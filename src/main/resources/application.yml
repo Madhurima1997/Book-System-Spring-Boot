@@ -1,0 +1,12 @@
+spring:
+  application:
+    name : bms
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+    hikari:
+      maximum-pool-size: 10
+springdoc:
+  api-docs:
+    path : /bms
