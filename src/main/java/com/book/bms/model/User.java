@@ -14,5 +14,8 @@ public class User {
     String username;
     String email;
     String password;
-    List<String> roles;
+    List<UserRole> roles;
+    String firstName;
+    String lastName;
+    String profilePic;
 }
