@@ -4,9 +4,15 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: root
+    password: 
     hikari:
       maximum-pool-size: 10
+  jpa:
+    properties:
+      hibernate:
+        format_sql : true
+        ddl-auto : create
+        
 springdoc:
   api-docs:
     path : /bms
